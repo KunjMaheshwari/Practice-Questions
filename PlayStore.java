@@ -110,5 +110,7 @@ public class PlayStore {
         }catch(InvalidAppInfoException e){
             System.out.println(e.getMessage());
         }
+
+        sc.close();
     }
 }

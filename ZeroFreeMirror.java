@@ -62,5 +62,7 @@ public class ZeroFreeMirror {
         } else {
             System.out.println(inputLine + " is not a palindrome array");
         }
+
+        sc.close();
     }
 }

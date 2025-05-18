@@ -36,5 +36,7 @@ public class Movie {
             }
         }
         System.out.println("Minimum number of screens needed: "+ maxScreens);
+
+        sc.close();
     }
 }

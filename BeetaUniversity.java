@@ -161,5 +161,6 @@ public class BeetaUniversity {
                 System.out.println("You have provided invalid year of study as "+ ds.getBaseFees()+" for distance student "+ ds.getStudentName());
             }
         }
+        sc.close();
     }
 }

@@ -97,5 +97,6 @@ public class SparkShop {
                 System.out.println(fe.getProductName());
             }
         }
+        sc.close();
     }
 }
