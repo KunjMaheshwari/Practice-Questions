@@ -37,6 +37,7 @@ public class ZeroFreeMirror {
 
         if (arraySize < 0) {
             System.out.println(arraySize + " is an invalid array size");
+            return;
         }
 
         System.out.println("Enter the elements of the array");
