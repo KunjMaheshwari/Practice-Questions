@@ -7,6 +7,11 @@ public class Movie {
         System.out.println("Enter the number of movies");
         int n = sc.nextInt();
 
+        if(n <=0){
+            System.out.println("Movies should be greater than 0");
+            return;
+        }
+
         int start[] = new int[n];
         int end[] = new int[n];
 
